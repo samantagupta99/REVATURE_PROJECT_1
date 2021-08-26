@@ -48,10 +48,10 @@
 * In hive terminal ,check database and if not create one and use the database using following command and after creating database create tables and load data from the folder in hdfs to the respected table and perform analysis using the query which are mention the txt file "project_1_command.txt"
 
 ### For creating database
-    create database project1; (#"project1" is the database name here)
+    create database demo1; (#"demo1" is the database name here)
 
 ### For work in the database
-    use project1;
+    use demo1;
 
 ### create table
     CREATE TABLE movies (movieId int, title string, genres varchar(200))
